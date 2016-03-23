@@ -14,6 +14,7 @@ pip install --upgrade --no-cache-dir https://get.dato.com/GraphLab-Create/1.8.4/
 
 
 ## Run `pip freeze` (alternatively `pip list`) to record the Python packages and versions installed.
-pip freeze > "$VIRTUAL_ENV/pip_freeze/pip_freeze_$(hostname)_$(date '+%Y%m%d%H%M%S%z').log"
+pip freeze > "$VIRTUAL_ENV/pip_freeze/pip_freeze"
+cp "$VIRTUAL_ENV/pip_freeze/pip_freeze" "$VIRTUAL_ENV/pip_freeze/pip_freeze_$(hostname)_$(date '+%Y%m%d%H%M%S%z').log"
 
 ## END
