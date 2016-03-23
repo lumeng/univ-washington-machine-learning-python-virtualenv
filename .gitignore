@@ -1,0 +1,9 @@
+*
+!\.gitignore
+!bin/activate
+!bin/get_env_details
+!bin/postactivate
+!bin/postdeactivate
+!bin/preactivate
+!bin/predeactivate
+!*/
