@@ -69,6 +69,8 @@ before plotting.
 
 [^matplotlib-virtualenv-workaround]: <http://matplotlib.org/faq/virtualenv_faq.html>
 
-* [Installing and configuring Python on Mac OS X](https://meng6.net/pages/computing/installing_and_configuring/installing_and_configuring_python)
+* [Installing and configuring Python on Mac OS X](https://meng6.net/pages/computing/installing_and_configuring/installing_and_configuring_Python_on_Mac_OS_X/)
+
+* [Installing and configuring Python on Ubuntu Linux](https://meng6.net/pages/computing/installing_and_configuring/installing_and_configuring_Python_on_Ubuntu_Linux/)
 
 * Dato.com, [GraphLab package installation guide](https://dato.com/download/install-graphlab-create-command-line.html?email=XXX%40gmail.com&key=6BE1-5664-392B-33BD-D0E7-C4C9-1897-D5C8)
