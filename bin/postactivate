@@ -7,9 +7,13 @@ UW_MACHINE_LEARNING_COURSE_WORKSPACE="$HOME/Dropbox/WorkSpace-Dropbox/Academics/
 cd $UW_MACHINE_LEARNING_COURSE_WORKSPACE
 
 
-## Update Python packages.
+## Install and/or update Python packages.
+pip install --upgrade pip
+pip install --upgrade "ipython[all]"
 pip install --upgrade matplotlib
 
+
+## Install and/or update Dato.com's GraphLab package. C.f. <https://dato.com/download/install-graphlab-create-command-line.html>
 pip install --upgrade --no-cache-dir https://get.dato.com/GraphLab-Create/1.8.4/lumeng.accounts@gmail.com/6BE1-5664-392B-33BD-D0E7-C4C9-1897-D5C8/GraphLab-Create-License.tar.gz
 
 
