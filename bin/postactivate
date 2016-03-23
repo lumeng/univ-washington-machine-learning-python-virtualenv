@@ -1,3 +1,19 @@
 #!/usr/local/bin/zsh
 # This hook is sourced after this virtualenv is activated.
 
+## Move to the workspace directory for Univ. Washington Machine Learning course.
+UW_MACHINE_LEARNING_COURSE_WORKSPACE="$HOME/Dropbox/WorkSpace-Dropbox/Academics/Course/data_science_and_engineering/UWMachineLearning/workspace"
+
+cd $UW_MACHINE_LEARNING_COURSE_WORKSPACE
+
+
+## Update Python packages.
+pip install --upgrade matplotlib
+
+pip install --upgrade --no-cache-dir https://get.dato.com/GraphLab-Create/1.8.4/lumeng.accounts@gmail.com/6BE1-5664-392B-33BD-D0E7-C4C9-1897-D5C8/GraphLab-Create-License.tar.gz
+
+
+## Run `pip freeze` (alternatively `pip list`) to record the Python packages and versions installed.
+pip freeze > "$VIRTUAL_ENV/pip_freeze/pip_freeze_$(hostname)_$(date '+%Y%m%d%H%M%S%z').log"
+
+## END
