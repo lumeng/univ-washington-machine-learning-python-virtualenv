@@ -1,3 +1,6 @@
+#!/usr/bin/env zsh
+# This hook is sourced after this virtualenv is activated.
+
 #!/usr/local/bin/zsh
 # This hook is sourced after this virtualenv is activated.
 
@@ -21,3 +24,4 @@ pip freeze > "$VIRTUAL_ENV/pip_freeze/pip_freeze"
 cp "$VIRTUAL_ENV/pip_freeze/pip_freeze" "$VIRTUAL_ENV/pip_freeze/pip_freeze_$(hostname)_$(date '+%Y%m%d%H%M%S%z').log"
 
 ## END
+
