@@ -13,9 +13,8 @@ pip install --upgrade "ipython[all]"
 pip install --upgrade matplotlib
 
 
-## Install and/or update Dato.com's GraphLab package. C.f. <https://dato.com/download/install-graphlab-create-command-line.html>
-pip install --upgrade --no-cache-dir https://get.dato.com/GraphLab-Create/1.8.4/lumeng.accounts@gmail.com/6BE1-5664-392B-33BD-D0E7-C4C9-1897-D5C8/GraphLab-Create-License.tar.gz
-
+## Install and/or update Dato.com's GraphLab package. C.f. <https://turi.com/download/install-graphlab-create-command-line.html>
+pip install --upgrade --no-cache-dir https://get.graphlab.com/GraphLab-Create/2.1/lumeng.accounts@gmail.com/6BE1-5664-392B-33BD-D0E7-C4C9-1897-D5C8/GraphLab-Create-License.tar.gz
 
 ## Run `pip freeze` (alternatively `pip list`) to record the Python packages and versions installed.
 pip freeze > "$VIRTUAL_ENV/pip_freeze/pip_freeze"
