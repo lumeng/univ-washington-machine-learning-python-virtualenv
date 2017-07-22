@@ -41,6 +41,7 @@ deactivate () {
 deactivate nondestructive
 
 VIRTUAL_ENV="$HOME/python_virtualenvs/univ-washington-machine-learning-python-virtualenv"
+#VIRTUAL_ENV="/Users/meng/python_virtualenvs/univ-washington-machine-learning-python-virtualenv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
