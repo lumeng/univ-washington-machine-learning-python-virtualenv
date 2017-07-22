@@ -24,7 +24,7 @@
 
         pip install --upgrade pip
 
-* Install `virtualenv` packages using `brew`:
+* Install `virtualenv` packages using `pip`:
 
         pip install --upgrade virtualenv virtualenvwrapper
     
