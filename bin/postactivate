@@ -1,9 +1,6 @@
 #!/usr/bin/env zsh
 # This hook is sourced after this virtualenv is activated.
 
-#!/usr/local/bin/zsh
-# This hook is sourced after this virtualenv is activated.
-
 ## Move to the workspace directory for Univ. Washington Machine Learning course.
 UW_MACHINE_LEARNING_COURSE_WORKSPACE="$HOME/Dropbox/WorkSpace-Dropbox/Academics/Course/data_science_and_engineering/UWMachineLearning/workspace"
 
